@@ -15,10 +15,10 @@ export default function SimpleSlider() {
         pauseOnHover: true,
     };
     return (
-        <Slider {...settings} className="container py-5 rounded-lg max-w-7xl">
-            <div >
-                <h3>
-                    <img className="rounded-2xl h-50" src="https://static-basket-01.wbbasket.ru/vol1/crm-bnrs/bners1/ny_sng_2880.webp" alt="" />
+        <Slider {...settings} className="container pt-5 rounded-lg max-w-8xl">
+            <div className="rounded-2xl" >
+                <h3 className="rounded-lg">
+                    <img className="h-50 rounded-2xl" src="https://static-basket-01.wbbasket.ru/vol1/crm-bnrs/bners1/ny_sng_2880.webp" alt="" />
                 </h3>
             </div>
             <div>
